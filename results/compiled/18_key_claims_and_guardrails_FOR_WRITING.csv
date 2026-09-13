@@ -1,0 +1,10 @@
+claim_area,paper_safe_claim,value_to_report,source_compiled_csv,claim_strength
+Primary proposed model,The pre-specified proposed model is MechSSL-Window Transformer (`ssl_window_transformer/window_level`).,ssl_window_transformer/window_level,03_primary_proposed_model_summary.csv,safe
+Primary endpoint,The primary endpoint is patient/record-level macro-F1 under strict patient-wise grouped cross-validation.,record_macro_f1,02_main_model_comparison_record_level_FOR_MAIN_TABLE.csv,safe
+Proposed model performance,"Report the proposed model record-level macro-F1, CI, AUROC, PR-AUC, ECE and Brier from the compiled primary table.",macro-F1=0.767; 95% CI=0.590-0.918; AUROC=0.964; PR-AUC=0.968; ECE=0.157; Brier=0.077,03_primary_proposed_model_summary.csv,safe_if_values_present
+Best overall model,"If the best model is not the proposed model, describe it as best observed model, not as the pre-specified primary model.",MechSSL signal-only ablation; macro-F1=0.892,02_main_model_comparison_record_level_FOR_MAIN_TABLE.csv,safe_with_careful_wording
+Best internal ablation,Use ablation results to explain which component contributes most within the proposed model family.,MechSSL signal-only ablation; macro-F1=0.892; delta=0.125,04_proposed_model_internal_ablation_FOR_MAIN_TABLE.csv,safe_with_interpretation
+Best external baseline,Compare the proposed model against classical and deep-learning baselines; only claim significance if statistical-test CSV supports it.,ResNet-1D signal baseline; macro-F1=0.786,05_external_baseline_comparison_FOR_MAIN_TABLE.csv,needs_statistical_support
+Calibration,Report calibration as ECE and Brier; do not rely on discrimination metrics only.,See calibration table.,08_calibration_reliability_FOR_MAIN_OR_SUPPLEMENT.csv,safe
+Repeated CV,Use repeated grouped CV to discuss robustness across seeds/fold assignments.,See repeated CV table.,09_repeated_grouped_cv_FOR_ROBUSTNESS.csv,safe_if_repeated_cv_completed
+Clinical validation warning,Do not call this clinically validated or deployment-ready without external/prospective validation.,Internal validation only.,18_key_claims_and_guardrails_FOR_WRITING.csv,critical_guardrail

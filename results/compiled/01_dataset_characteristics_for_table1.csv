@@ -1,0 +1,26 @@
+paper_section,item,value,source_file
+Methods/Results,Total records discovered,39,dataset_inventory.csv
+Methods/Results,duration_sec mean,1703.1151090465316,dataset_inventory.csv
+Methods/Results,n_channels_raw mean,18.307692307692307,dataset_inventory.csv
+Methods/Results,n_beats mean,2967.897435897436,dataset_inventory.csv
+Methods/Results,paced_fraction_beats mean,0.10463655050769528,dataset_inventory.csv
+Methods/Results,n_ecg_present mean,12.0,dataset_inventory.csv
+Methods/Results,n_iegm_present mean,6.256410256410256,dataset_inventory.csv
+Methods/Results,All SSL candidate windows,13228,all_window_index_ssl_and_binary.csv
+Methods/Results,Records contributing SSL candidate windows,39,all_window_index_ssl_and_binary.csv
+Methods/Results,Binary supervised windows,1410,locked_patientwise_folds_binary.csv
+Methods/Results,Binary AVNRT/AVRT records,28,locked_patientwise_folds_binary.csv
+Methods/Results,Outer patient-wise grouped CV folds,5,locked_patientwise_folds_binary.csv
+Methods/Results,Binary windows labeled AVNRT,537,locked_patientwise_folds_binary.csv
+Methods/Results,Binary windows labeled AVRT,873,locked_patientwise_folds_binary.csv
+Methods,"Window length, seconds",10.0,configuration.json
+Methods,"Window stride, seconds",5.0,configuration.json
+Methods,"Target sampling frequency, Hz",500,configuration.json
+Methods,"Pre-R interval, seconds",0.2,configuration.json
+Methods,"Post-R interval, seconds",0.4,configuration.json
+Methods,Beat token length,160,configuration.json
+Methods,Maximum beats per window,40,configuration.json
+Methods,Outer CV folds,5,configuration.json
+Methods,Primary endpoint,record_macro_f1,configuration.json
+Methods,Handcrafted feature dimension,161,feature_and_mechanism_dims.json
+Methods,Mechanism-token dimension,14,feature_and_mechanism_dims.json

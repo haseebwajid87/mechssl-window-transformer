@@ -1,0 +1,2 @@
+paper_model_name,code_model,code_ablation,primary_endpoint,record_macro_f1,record_macro_f1_95ci,record_accuracy,record_balanced_accuracy,record_roc_auc,record_pr_auc,record_ece,record_brier,interpretation,source_file
+MechSSL-Window Transformer,ssl_window_transformer,window_level,record_macro_f1,0.7666666666666666,0.590-0.918,0.7857142857142857,0.7692307692307692,0.964102564102564,0.9683778639660992,0.1573522556143096,0.0770116441577019,Pre-specified primary proposed model for the manuscript.,main_record_level_results.csv

@@ -1,0 +1,16 @@
+manuscript_location,compiled_csv,purpose,main_or_supplement
+Main Table 1,01_dataset_characteristics_for_table1.csv,"Dataset size, windows, folds, preprocessing settings.",main
+Main Table 2,02_main_model_comparison_record_level_FOR_MAIN_TABLE.csv,Primary record-level model comparison.,main
+Main Table 3,04_proposed_model_internal_ablation_FOR_MAIN_TABLE.csv,Internal ablation study of proposed model family.,main
+Main Table 4 or Supplement,05_external_baseline_comparison_FOR_MAIN_TABLE.csv,Classical and deep-learning baseline comparison.,main_or_supplement
+Main Table 5,07_statistical_tests_FOR_SIGNIFICANCE_CLAIMS.csv,Paired tests and Holm-corrected significance claims.,main
+Main/Supplement Calibration Table,08_calibration_reliability_FOR_MAIN_OR_SUPPLEMENT.csv,"ECE, Brier, threshold, temperature, reliability evidence.",main_or_supplement
+Main/Supplement Robustness Table,09_repeated_grouped_cv_FOR_ROBUSTNESS.csv,Repeated grouped CV mean/CI robustness.,main_or_supplement
+Main/Supplement Confusion Matrix,10_confusion_matrix_primary_proposed_model.csv,Record-level confusion matrix for primary model.,main_or_supplement
+Discussion/Supplement,11_error_analysis_FOR_DISCUSSION.csv,Misclassification pattern and high-confidence errors.,supplement
+Supplement,12_subgroup_analysis_FOR_SUPPLEMENT.csv,Subgroup robustness analysis.,supplement
+Supplement,13_sensitivity_analysis_FOR_SUPPLEMENT.csv,Sensitivity analysis including R-peak/aggregation if available.,supplement
+Supplement,14_decision_curve_analysis_FOR_SUPPLEMENT.csv,Decision-curve / clinical utility evidence.,supplement
+Methods/Supplement,15_model_complexity_runtime_FOR_METHODS.csv,"Runtime, trainable parameters, computational complexity.",supplement
+Results/Supplement,17_window_level_secondary_results_FOR_SUPPLEMENT.csv,Window-level secondary endpoint results.,supplement
+Writing guide,18_key_claims_and_guardrails_FOR_WRITING.csv,Safe claims and overclaiming guardrails.,writing_support

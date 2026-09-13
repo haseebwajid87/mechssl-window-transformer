@@ -1,0 +1,14 @@
+{
+  "timestamp_utc": "2026-05-26T12:39:08Z",
+  "python": "3.10.20 | packaged by Anaconda, Inc. | (main, Mar 11 2026, 17:42:35) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+  "cpu_count": 32,
+  "numpy": "2.0.1",
+  "pandas": "2.3.3",
+  "torch": "2.5.1",
+  "cuda_available": true,
+  "cuda_device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "wfdb": "4.3.1",
+  "git_commit": null
+}

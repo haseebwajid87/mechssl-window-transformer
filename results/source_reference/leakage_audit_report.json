@@ -1,0 +1,130 @@
+{
+  "passed": true,
+  "failures": [],
+  "checks": {
+    "patient_disjointness": [
+      {
+        "fold": 0,
+        "train_records": 23,
+        "test_records": 5,
+        "overlap_records": [],
+        "passed": true
+      },
+      {
+        "fold": 1,
+        "train_records": 23,
+        "test_records": 5,
+        "overlap_records": [],
+        "passed": true
+      },
+      {
+        "fold": 2,
+        "train_records": 23,
+        "test_records": 5,
+        "overlap_records": [],
+        "passed": true
+      },
+      {
+        "fold": 3,
+        "train_records": 22,
+        "test_records": 6,
+        "overlap_records": [],
+        "passed": true
+      },
+      {
+        "fold": 4,
+        "train_records": 21,
+        "test_records": 7,
+        "overlap_records": [],
+        "passed": true
+      }
+    ],
+    "ssl_train_excludes_outer_test": [
+      {
+        "fold": 0,
+        "ssl_train_windows": 12880,
+        "test_records": 5,
+        "overlap_records": [],
+        "passed": true
+      },
+      {
+        "fold": 1,
+        "ssl_train_windows": 9539,
+        "test_records": 5,
+        "overlap_records": [],
+        "passed": true
+      },
+      {
+        "fold": 2,
+        "ssl_train_windows": 12877,
+        "test_records": 5,
+        "overlap_records": [],
+        "passed": true
+      },
+      {
+        "fold": 3,
+        "ssl_train_windows": 11392,
+        "test_records": 6,
+        "overlap_records": [],
+        "passed": true
+      },
+      {
+        "fold": 4,
+        "ssl_train_windows": 9422,
+        "test_records": 7,
+        "overlap_records": [],
+        "passed": true
+      }
+    ],
+    "duplicate_row_ids": [
+      {
+        "fold": 0,
+        "overlap_row_ids": [],
+        "n_overlap": 0,
+        "passed": true
+      },
+      {
+        "fold": 1,
+        "overlap_row_ids": [],
+        "n_overlap": 0,
+        "passed": true
+      },
+      {
+        "fold": 2,
+        "overlap_row_ids": [],
+        "n_overlap": 0,
+        "passed": true
+      },
+      {
+        "fold": 3,
+        "overlap_row_ids": [],
+        "n_overlap": 0,
+        "passed": true
+      },
+      {
+        "fold": 4,
+        "overlap_row_ids": [],
+        "n_overlap": 0,
+        "passed": true
+      }
+    ],
+    "cache_hash_consistency": [
+      {
+        "passed": true,
+        "note": "Cache file names are deterministic by row_id; token cache is rebuilt only from fold-safe row tables."
+      }
+    ],
+    "validation_only_temperature_threshold": [
+      {
+        "passed": true,
+        "note": "train_window_transformer_fold fits temperature and threshold on inner validation predictions only."
+      }
+    ],
+    "no_test_fold_feature_selection": [
+      {
+        "passed": true,
+        "note": "Classical feature scaling is inside sklearn Pipeline fitted on inner-train only; threshold is selected on inner validation only."
+      }
+    ]
+  }
+}

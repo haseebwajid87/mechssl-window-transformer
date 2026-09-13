@@ -1,0 +1,20 @@
+{
+  "feature_dim": 161,
+  "mech_dim": 14,
+  "mech_token_names": [
+    "rr_prev_sec",
+    "rr_next_sec",
+    "heart_rate_bpm_scaled",
+    "qrs_width_proxy_sec",
+    "retrograde_p_score",
+    "va_interval_proxy_sec",
+    "cs_activation_slope_sec_per_channel",
+    "cs_spread_sec",
+    "cs_direction_tanh",
+    "rva_to_cs_delay_sec",
+    "abl_to_cs_delay_sec",
+    "pace_frac_window",
+    "ecg_missing_frac",
+    "iegm_missing_frac"
+  ]
+}

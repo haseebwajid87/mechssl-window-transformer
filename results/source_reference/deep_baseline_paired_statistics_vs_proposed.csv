@@ -1,0 +1,9 @@
+test,baseline,baseline_ablation,proposed,proposed_ablation,n,baseline_correct_proposed_wrong,baseline_wrong_proposed_correct,delta_macro_f1,p_value,holm_p_value
+mcnemar,cnn1d_signal,signal_dl_baseline,ssl_window_transformer,window_level,28,4.0,7.0,0.09182795698924728,0.548828125,1.0
+paired_permutation_macro_f1,cnn1d_signal,signal_dl_baseline,ssl_window_transformer,window_level,28,,,0.09182795698924728,0.5556888622275545,1.0
+mcnemar,resnet1d_signal,signal_dl_baseline,ssl_window_transformer,window_level,28,4.0,4.0,-0.01904761904761909,1.0,1.0
+paired_permutation_macro_f1,resnet1d_signal,signal_dl_baseline,ssl_window_transformer,window_level,28,,,-0.01904761904761909,0.7404519096180764,1.0
+mcnemar,inceptiontime_signal,signal_dl_baseline,ssl_window_transformer,window_level,28,5.0,5.0,-0.017948717948718107,1.0,1.0
+paired_permutation_macro_f1,inceptiontime_signal,signal_dl_baseline,ssl_window_transformer,window_level,28,,,-0.017948717948718107,0.7574485102979404,1.0
+mcnemar,cnn_lstm_signal,signal_dl_baseline,ssl_window_transformer,window_level,28,4.0,6.0,0.05384615384615388,0.75390625,1.0
+paired_permutation_macro_f1,cnn_lstm_signal,signal_dl_baseline,ssl_window_transformer,window_level,28,,,0.05384615384615388,0.754249150169966,1.0

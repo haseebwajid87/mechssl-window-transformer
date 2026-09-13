@@ -1,0 +1,14 @@
+{
+  "source_notebook_sha256": "aa9cc1d550f4ab8e534874714181305a62bc0fec1778d636064eb364442a441f",
+  "source_results_archive_sha256": "17a2168a87c2005323b15e6a339c60b951a2faac8ae196934592bcbb3c80da9b",
+  "original_notebook_cells": 48,
+  "original_code_cells": 34,
+  "original_markdown_cells": 14,
+  "original_outputs": 487,
+  "original_error_outputs": 1,
+  "canonical_notebook_cells": 49,
+  "added_documentation_cells": 1,
+  "results_files_extracted_from_archive": 69,
+  "notebook_embedded_pngs_extracted": 5,
+  "policy": "Every supplied notebook cell/output and every extracted results file is preserved; no supplied result values were rewritten."
+}

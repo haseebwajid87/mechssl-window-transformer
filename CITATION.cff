@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this research software, please cite this repository. Add the paper/Zenodo DOI when available."
+title: "MechSSL-Window Transformer for AVNRT vs AVRT Mechanism Classification"
+type: software
+authors:
+  - family-names: "Wajid"
+    given-names: "Abdul Haseeb"
+version: 1.0.0
+date-released: 2026-09-13
+license: MIT
+keywords:
+  - electrocardiography
+  - intracardiac electrograms
+  - AVNRT
+  - AVRT
+  - transformer
+  - self-supervised learning
+  - clinical machine learning

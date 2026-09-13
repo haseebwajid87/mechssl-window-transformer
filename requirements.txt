@@ -1,0 +1,17 @@
+# Versions explicitly captured by the archived run
+numpy==2.0.1
+pandas==2.3.3
+torch==2.5.1
+wfdb==4.3.1
+
+# Imported by the notebook; exact versions were not captured in the supplied environment snapshot
+scipy
+scikit-learn
+matplotlib
+tqdm
+xgboost
+lightgbm
+ipython
+jupyterlab
+nbformat
+openpyxl
