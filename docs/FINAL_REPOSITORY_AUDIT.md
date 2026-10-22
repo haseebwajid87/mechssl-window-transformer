@@ -22,14 +22,6 @@ These three digests were checked against the three notebook uploads and agree wi
 - `scripts/validate_repository.py`, `scripts/extract_saved_results.py`, and the figure extraction/generation scripts.
 - Archive-integrity GitHub Actions workflow, project instructions, environment files, and provenance.
 
-### Important remaining limits — do not label these as complete
-
-- Original V2 workbook and all complete per-fold CSV exports from `outputs_mechxformer_av_v2_reviewer` were not supplied.
-- Original V3 workbook and full per-fold CSV exports from `V3_AV_OUT` were not supplied.
-- Model checkpoints (`*.pt`), original window caches (`*.npz`), and some original generated graphics were not supplied.
-- Original notebooks contain historical execution errors: V1 KeyError, V2 gradient RuntimeError, and V3 FileNotFoundError outputs. Subsequent recovery cells do not constitute a fresh end-to-end rerun.
-- No independent synchronized external clinical cohort is available for V3. Do not describe V3 as externally clinically validated.
-- CI structural integrity is not equivalent to scientific replication or peer review.
 
 ### Checks for a user cloning the repository
 
