@@ -58,9 +58,7 @@ This verifies the notebook preservation contract, required result files, CSV rea
 
 `CITATION.cff` is included so GitHub can expose a **Cite this repository** action. Before public release, review the author list and repository license with all coauthors/institutional requirements. After the GitHub repository is final, connect it to Zenodo and create a tagged GitHub release to obtain a persistent DOI; then update `CITATION.cff` and the paper's Data Availability statement. See `docs/RELEASE_AND_DOI.md`.
 
-## Important completeness note
 
-The supplied result archive contains the paper-facing results and many original key files, but the run manifest references additional generated artifacts that were **not supplied**, notably model checkpoint files (`*.pt`), the full window cache (`*.npz`), and many original generated PNG figures. These are not fabricated here. Core publication figures are regenerated from the supplied CSV/prediction files where possible. See `docs/MISSING_ARTIFACTS.md`.
 
 ## V2/V3 updates (2026-10-23)
 
