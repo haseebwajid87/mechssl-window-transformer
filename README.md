@@ -86,3 +86,7 @@ python scripts/regenerate_figures.py
 ```
 
 The first two commands are data-free consistency checks (also exercised by GitHub Actions). The last two commands create figures from archived evidence; neither performs model training. A successful archive check is **not** proof of independent full experimental reproducibility or clinical validity. The V3 notebook explicitly reports no independent external validation cohort.
+
+## Verified repository audit (2026-10-23)
+
+See [Final repository audit](docs/FINAL_REPOSITORY_AUDIT.md) for the hash-checked identity of the three supplied notebooks, verified archive contents, and a precise inventory of missing original V2/V3 exports and model artifacts. **All supplied notebooks are archived; full independent reproducibility and external validation remain unverified.**
