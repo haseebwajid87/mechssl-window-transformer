@@ -1,0 +1,4 @@
+notebook_row_index,tolerance_ms,n_windows,n_reference_peaks,n_detected_peaks,matched_peaks,pooled_sensitivity,pooled_ppv,median_window_abs_error_ms,fallback_window_fraction
+0,50.0,1410,40287,39948,39145,0.971653,0.979899,6.0,0.0
+1,100.0,1410,40287,39948,39570,0.982203,0.990538,6.0,0.0
+2,150.0,1410,40287,39948,39700,0.985430,0.993792,6.0,0.0

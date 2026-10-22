@@ -1,0 +1,2 @@
+notebook_row_index,n_seed_schedules,mean_ssl_macro_f1,sd_ssl_macro_f1,mean_random_macro_f1,sd_random_macro_f1,mean_delta_macro_f1_ssl_minus_random,sd_delta_macro_f1
+0,3,0.654663,0.075433,0.579011,0.01625,0.075652,0.063003

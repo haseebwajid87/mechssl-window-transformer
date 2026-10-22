@@ -1,0 +1,16 @@
+name: Archive integrity
+on:
+  push:
+  pull_request:
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate archived notebooks and result file structure
+        run: python scripts/validate_repository.py
+      - name: Verify extracted notebook evidence matches the committed snapshots
+        run: python scripts/extract_saved_results.py --check

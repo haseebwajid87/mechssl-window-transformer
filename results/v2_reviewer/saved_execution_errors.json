@@ -1,0 +1,8 @@
+[
+  {
+    "cell_index": 51,
+    "output_index": 10,
+    "error_type": "RuntimeError",
+    "error_message": "element 0 of tensors does not require grad and does not have a grad_fn"
+  }
+]

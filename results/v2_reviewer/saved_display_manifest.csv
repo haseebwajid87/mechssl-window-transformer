@@ -1,0 +1,11 @@
+cell_index,output_index,filename,visible_rows,visible_columns,status
+7,1,cell_007_output_001.csv,5,16,saved display only; full source table not guaranteed
+7,2,cell_007_output_002.csv,5,19,saved display only; full source table not guaranteed
+41,1,cell_041_output_001.csv,13,14,saved display only; full source table not guaranteed
+43,1,,16,22,skipped: display omits columns or has irregular table structure
+45,2,,2,22,skipped: display omits columns or has irregular table structure
+47,1,cell_047_output_001.csv,28,18,saved display only; full source table not guaranteed
+49,1,,2,22,skipped: display omits columns or has irregular table structure
+52,3,,2,22,skipped: display omits columns or has irregular table structure
+52,4,cell_052_output_004.csv,1,4,saved display only; full source table not guaranteed
+52,6,,10,22,skipped: display omits columns or has irregular table structure

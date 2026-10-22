@@ -1,0 +1,16 @@
+cell_index,output_index,filename,visible_rows,visible_columns,status
+6,3,cell_006_output_003.csv,5,16,saved display only; full source table not guaranteed
+6,4,cell_006_output_004.csv,5,19,saved display only; full source table not guaranteed
+31,11,,1,22,skipped: display omits columns or has irregular table structure
+31,12,,5,22,skipped: display omits columns or has irregular table structure
+33,0,cell_033_output_000.csv,1,7,saved display only; full source table not guaranteed
+36,2,,2,22,skipped: display omits columns or has irregular table structure
+36,3,cell_036_output_003.csv,2,13,saved display only; full source table not guaranteed
+38,2,cell_038_output_002.csv,3,10,saved display only; full source table not guaranteed
+40,11,,2,22,skipped: display omits columns or has irregular table structure
+40,12,cell_040_output_012.csv,1,8,saved display only; full source table not guaranteed
+42,21,,6,22,skipped: display omits columns or has irregular table structure
+42,22,cell_042_output_022.csv,3,8,saved display only; full source table not guaranteed
+42,23,cell_042_output_023.csv,1,8,saved display only; full source table not guaranteed
+44,0,cell_044_output_000.csv,1,4,saved display only; full source table not guaranteed
+46,1,cell_046_output_001.csv,14,4,saved display only; full source table not guaranteed

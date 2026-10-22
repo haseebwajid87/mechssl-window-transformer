@@ -1,0 +1,2 @@
+notebook_row_index,comparison,delta_macro_f1,permutation_p,mcnemar_p,full_correct_no_pacing_wrong,full_wrong_no_pacing_correct,n
+0,automatic_full_input_minus_no_annotation_pacing,0.0,1.0,1.0,0,0,28

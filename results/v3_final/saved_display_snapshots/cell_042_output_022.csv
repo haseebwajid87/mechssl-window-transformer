@@ -1,0 +1,4 @@
+notebook_row_index,seed_base,delta_macro_f1_ssl_minus_random,permutation_p,mcnemar_p,ssl_correct_random_wrong,ssl_wrong_random_correct,n
+0,88000,0.030159,0.920816,1.00000,4,3,28
+1,99000,0.049233,0.794441,1.00000,4,3,28
+2,110000,0.147563,0.231354,0.21875,5,1,28

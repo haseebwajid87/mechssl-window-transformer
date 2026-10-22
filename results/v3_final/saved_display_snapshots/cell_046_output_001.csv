@@ -1,0 +1,15 @@
+notebook_row_index,analysis,file,available
+0,ReferenceSummary,C:\Users\hasee\V3_AV_OUT\tables\Table_V3A_refe...,True
+1,ReferenceFoldParams,C:\Users\hasee\V3_AV_OUT\tables\Table_V3A_refe...,True
+2,ClinicalAudit,C:\Users\hasee\V3_AV_OUT\tables\Table_V3B_clin...,True
+3,ClinicalAuditSummary,C:\Users\hasee\V3_AV_OUT\tables\Table_V3B_clin...,True
+4,StrictSummary,C:\Users\hasee\V3_AV_OUT\tables\Table_V3C_stri...,True
+5,StrictPaired,C:\Users\hasee\V3_AV_OUT\tables\Table_V3C_stri...,True
+6,LocalizationSummary,C:\Users\hasee\V3_AV_OUT\tables\Table_V3D_loca...,True
+7,LocalizationPatient,C:\Users\hasee\V3_AV_OUT\tables\Table_V3D_loca...,True
+8,AutoPacingSummary,C:\Users\hasee\V3_AV_OUT\tables\Table_V3E_auto...,True
+9,AutoPacingPaired,C:\Users\hasee\V3_AV_OUT\tables\Table_V3E_auto...,True
+10,MatchedBySeed,C:\Users\hasee\V3_AV_OUT\tables\Table_V3F_matc...,True
+11,MatchedPaired,C:\Users\hasee\V3_AV_OUT\tables\Table_V3F_matc...,True
+12,MatchedAcrossSeeds,C:\Users\hasee\V3_AV_OUT\tables\Table_V3F_matc...,True
+13,ExternalStatus,C:\Users\hasee\V3_AV_OUT\tables\Table_V3G_exte...,True

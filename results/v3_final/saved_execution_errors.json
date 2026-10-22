@@ -1,0 +1,14 @@
+[
+  {
+    "cell_index": 29,
+    "output_index": 2,
+    "error_type": "FileNotFoundError",
+    "error_message": "[Errno 2] No such file or directory: 'outputs_mechxformer_av_v3_final_validation\\\\matched_initialization\\\\seed_88000\\\\tables\\\\record_predictions_ssl_initialized_window_level_fold0.csv'"
+  },
+  {
+    "cell_index": 30,
+    "output_index": 1,
+    "error_type": "FileNotFoundError",
+    "error_message": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\hasee\\\\Desktop\\\\Haseeb Phd Work\\\\New Updated Phd Papers\\\\Paper 2 Nadeem Sarwar Drafts\\\\Paper 2 Revised with code n Results\\\\outputs_mechxformer_av_v3_final_validation\\\\matched_initialization\\\\seed_88000\\\\tables\\\\record_predictions_ssl_initialized_window_level_fold0.csv'"
+  }
+]

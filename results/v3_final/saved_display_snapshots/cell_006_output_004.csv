@@ -1,0 +1,6 @@
+notebook_row_index,record,start,end,orig_fs,pace_frac,cohort_group,n_ecg_present,n_iegm_present,all_iegm_present,label,label_name,frac_AVNRT,frac_AVRT,frac_other_or_unlabeled,dominant_fraction,ssl_family,ssl_family_fraction,row_id
+0,x001,3360880,3370650,977.0,0.0,pediatric,12,7,True,1,AVRT,0.0,0.700102,0.299898,0.700102,AVRT,0.700102,688
+1,x001,3365765,3375535,977.0,0.0,pediatric,12,7,True,1,AVRT,0.0,1.000000,0.000000,1.000000,AVRT,1.000000,689
+2,x001,3370650,3380420,977.0,0.0,pediatric,12,7,True,1,AVRT,0.0,1.000000,0.000000,1.000000,AVRT,1.000000,690
+3,x001,3375535,3385305,977.0,0.0,pediatric,12,7,True,1,AVRT,0.0,1.000000,0.000000,1.000000,AVRT,1.000000,691
+4,x001,3380420,3390190,977.0,0.0,pediatric,12,7,True,1,AVRT,0.0,1.000000,0.000000,1.000000,AVRT,1.000000,692
