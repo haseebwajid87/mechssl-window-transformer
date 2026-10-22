@@ -1,0 +1,22 @@
+# Generated Python and notebook state
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Local training products; archive externally when needed
+outputs_mechxformer_av*/
+V3_AV_OUT/
+*.pt
+*.pth
+*.ckpt
+*.npz
+
+# Downloaded PhysioNet source data and operating system artifacts
+leipzig-heart-centerwith-congenital-heart-disease-1.0.0/
+.DS_Store
+Thumbs.db
