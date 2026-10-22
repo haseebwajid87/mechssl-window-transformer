@@ -61,3 +61,28 @@ This verifies the notebook preservation contract, required result files, CSV rea
 ## Important completeness note
 
 The supplied result archive contains the paper-facing results and many original key files, but the run manifest references additional generated artifacts that were **not supplied**, notably model checkpoint files (`*.pt`), the full window cache (`*.npz`), and many original generated PNG figures. These are not fabricated here. Core publication figures are regenerated from the supplied CSV/prediction files where possible. See `docs/MISSING_ARTIFACTS.md`.
+
+## V2/V3 updates (2026-10-23)
+
+The repository now includes **all three supplied research notebooks**:
+
+| Research version | Notebook path | Saved code and execution evidence |
+| --- | --- | --- |
+| V1 | `notebooks/MechSSL_Window_Transformer.ipynb` | Original study with compiled source results |
+| V2 reviewer experiments | `notebooks/MechSSL_Window_Transformer_V2_Reviewer_Experiments.ipynb` | Patient calibration, labeling sensitivity, strict modality baselines, R-peak checks, matched SSL versus scratch |
+| V3 final validation analyses | `notebooks/MechSSL_Window_Transformer_V3_Final_Validation.ipynb` | Clinical label concordance, modality comparisons, automatic localization/pacing removal, repeated SSL versus random initialization |
+
+The V2/V3 notebook files were preserved **byte-for-byte** from the supplied attachments. Historical errors and recovery cells remain visible rather than being silently removed. Read [V2/V3 archive status](docs/V2_V3_ARCHIVE_STATUS.md) for details.
+
+**V2/V3 result snapshot folders:** `results/v2_reviewer/` and `results/v3_final/` contain notebook-derived Pandas HTML display snapshots plus an audit manifest. **These are only the rows/columns visibly saved within the notebooks, not the original complete exported CSV and XLSX files**. The original locally written V2/V3 results directories, checkpoints, and training caches were not included in the supplied attachments and are not fabricated.
+
+**Integrity and reproduction scripts:**
+
+```bash
+python scripts/validate_repository.py
+python scripts/extract_saved_results.py --check
+python scripts/extract_notebook_figures.py
+python scripts/regenerate_figures.py
+```
+
+The first two commands are data-free consistency checks (also exercised by GitHub Actions). The last two commands create figures from archived evidence; neither performs model training. A successful archive check is **not** proof of independent full experimental reproducibility or clinical validity. The V3 notebook explicitly reports no independent external validation cohort.
