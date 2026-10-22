@@ -7,3 +7,11 @@
 3. **The run manifest references artifacts not present in the supplied result archive.** See `MISSING_ARTIFACTS.md`.
 
 4. **Dependency snapshot is partial.** Exact versions were recorded for Python/NumPy/pandas/PyTorch/WFDB, but not every imported library. Unrecorded versions are not fabricated in this repository.
+
+5. **V2 archived execution error:** The matched-SSL experiment encounters a non-differentiable-loss `RuntimeError` and resumes in a later recovery cell. The notebook remains an unmodified historical record, not proof of a clean full rerun.
+
+6. **V3 archived path errors:** Two `FileNotFoundError` outputs occur before recovery cells. Some paths are absolute local Windows paths and are not portable. The captured follow-up outputs remain available.
+
+7. **V2/V3 complete local result folders not supplied:** The new `results/v2_reviewer/` and `results/v3_final/` files represent only visible saved notebook output, not the original full CSV/XLSX exports or checkpoints. See `V2_V3_ARCHIVE_STATUS.md`.
+
+8. **Clinical validation limit:** There is no genuinely independent synchronized external cohort in the supplied V3 evidence, and the clinical diagnosis concordance audit is not a substitute for external validation.
